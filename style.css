@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Karmatic";
+    src: url(karmatic_arcade/ka1.ttf);
+}
+
+h1{ font-family:"karmatic";color: white; text-align: center; margin-top: 50px;}
+
+.titulo{ font-size: 90px; }
+
+h2{ font-family:"karmatic"; color: white;}
+
+body{ background-image: url(./images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
