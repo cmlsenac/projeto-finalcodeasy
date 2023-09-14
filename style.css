@@ -3,9 +3,15 @@
     src: url(karmatic_arcade/ka1.ttf);
 }
 
+
+@font-face {
+    font-family: "Revolution" ;
+    src: url(./karmatic_revolution/kr1.ttf);
+}
 h1{ font-family:"karmatic";color: white; text-align: center; margin-top: 50px;}
 
 .titulo{ font-size: 90px; }
+.subtitulo{ text-align: center; margin-top: 30px;}
 
 h2{ font-family:"karmatic"; color: white;}
 
@@ -13,3 +19,5 @@ body{ background-image: url(./images/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+p{ font-family:"Revolution"; color: white;}
