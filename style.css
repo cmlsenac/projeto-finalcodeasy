@@ -3,21 +3,101 @@
     src: url(karmatic_arcade/ka1.ttf);
 }
 
-
 @font-face {
     font-family: "Revolution" ;
     src: url(./karmatic_revolution/kr1.ttf);
 }
+@font-face {
+    font-family: "Gamer";
+    src: url(./fontes/Gamer.ttf);
+}
 h1{ font-family:"karmatic";color: white; text-align: center; margin-top: 50px;}
 
-.titulo{ font-size: 90px; }
+.titulo{ font-size: 90px;  }
 .subtitulo{ text-align: center; margin-top: 30px;}
 
-h2{ font-family:"karmatic"; color: white;}
+header h2{ 
+    font-family:"karmatic"; 
+    color: white;
+    font-size: 50px;}
+
+h3{ font-family:"karmatic"; color: white;}
 
 body{ background-image: url(./images/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
-p{ font-family:"Revolution"; color: white;}
+
+
+.info{ 
+    font-family:"Gamer" ;
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    margin:100px auto;
+    justify-content: space-around; 
+    display: flex; 
+    gap: 30px;
+    height: 300px;
+
+/*     letter-spacing: 3px; */
+}
+.info h2 {
+    margin-bottom: 40px;
+    font-family:"karmatic"; 
+    color: white;
+}
+.info1{  
+    width: 30%;
+    text-align: center;
+}
+
+.divL{
+    text-align: left;
+}
+
+.info1 ul {
+    margin-top:40px
+}
+.inscrever {
+    font-size: 22px;
+    display:block;
+    margin:auto;
+    height: 90px;
+    width: 230px;
+    border: solid 3px orange;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-family: 'Karmatic';
+}
+.inscrever:hover {
+    background-color: orange;
+}
+.inscrever:active{
+    background-color: #bd7b00;
+}
+form {
+    margin-top: 50px;
+    width: 70%;
+    background-color: #00000040;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+.btn {border: solid 3px orange;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s; 
+    font-family: 'Karmatic';
+    
+    }
+
+    .btn:hover {
+        background-color: orange;
+        border: solid 3px orange;}
