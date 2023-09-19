@@ -13,7 +13,7 @@
 }
 h1{ font-family:"karmatic";color: white; text-align: center; margin-top: 50px;}
 
-.titulo{ font-size: 90px;  }
+.titulo{ font-size: 90px; text-decoration: none;  }
 .subtitulo{ text-align: center; margin-top: 30px;}
 
 header h2{ 
@@ -101,3 +101,5 @@ form {
     .btn:hover {
         background-color: orange;
         border: solid 3px orange;}
+
+    a{ text-decoration: none; color: inherit;}
