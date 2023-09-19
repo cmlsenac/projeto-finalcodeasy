@@ -27,12 +27,14 @@ body{ background-image: url(./images/background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    min-height: 100vh;
 }
 
 
 
 .info{ 
-    font-family:"Gamer" ;
+    font-family:inherit ;
+    flex-wrap: wrap;
     color: white;
     font-size: 30px;
     width: 80%;
@@ -40,7 +42,8 @@ body{ background-image: url(./images/background.jpeg);
     justify-content: space-around; 
     display: flex; 
     gap: 30px;
-    height: 300px;
+    height: 50%;
+    position:relative;
 
 /*     letter-spacing: 3px; */
 }
@@ -50,7 +53,7 @@ body{ background-image: url(./images/background.jpeg);
     color: white;
 }
 .info1{  
-    width: 30%;
+    width:440px;
     text-align: center;
 }
 
@@ -61,9 +64,16 @@ body{ background-image: url(./images/background.jpeg);
 .info1 ul {
     margin-top:40px
 }
+
+.botao { width: fit-content;
+margin: auto;
+position:relative;
+flex-wrap: wrap;
+
+}
+
 .inscrever {
     font-size: 22px;
-    display:block;
     margin:auto;
     height: 90px;
     width: 230px;
@@ -103,3 +113,7 @@ form {
         border: solid 3px orange;}
 
     a{ text-decoration: none; color: inherit;}
+
+  
+
+
