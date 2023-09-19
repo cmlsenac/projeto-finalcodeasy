@@ -8,8 +8,10 @@
     src: url(./karmatic_revolution/kr1.ttf);
 }
 @font-face {
-    font-family: "Gamer";
-    src: url(./fontes/Gamer.ttf);
+    font-family: "caviar";
+    src: url(./fontes/caviar_dreams/CaviarDreams.ttf);
+
+
 }
 h1{ font-family:"karmatic";color: white; text-align: center; margin-top: 50px;}
 
@@ -33,7 +35,7 @@ body{ background-image: url(./images/background.jpeg);
 
 
 .info{ 
-    font-family:inherit ;
+    font-family:"caviar";
     flex-wrap: wrap;
     color: white;
     font-size: 30px;
